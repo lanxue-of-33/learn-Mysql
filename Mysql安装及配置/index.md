@@ -17,8 +17,13 @@
 8. 我们也可以不登陆，因为密码是空的，所以先进行密码设定：   
   `mysqladmin -u root -p password 此处输入新的密码`   
   `Enter password: 此处输入旧的密码` 因为一开始没有密码，所以直接按回车
+9. 此时，我们可以进行登陆了：`mysql -u root -p`
 ---
+#### 一些基础的MySQL语句
+1. `show databases;`
+2. `quit;`或`exited;`   
 
+---
 #### 出现的问题
-1. 删除残存的MySQL：`mysqld -remove`
+1. 删除残存的MySQL：`mysqld --remove`
 2. 其实，自己当初捣鼓一下午的错误是因为自己的.ini文件配置错误造成的    
