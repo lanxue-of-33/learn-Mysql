@@ -17,4 +17,5 @@
 ---
 
 #### 出现的问题
-1.![删除残存的MySQL](images/exited.PNG)
+1. 删除残存的MySQL
+![删除残存的MySQL](images/exited.PNG)
