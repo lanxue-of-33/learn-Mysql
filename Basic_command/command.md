@@ -34,5 +34,5 @@
     * 实例：`update tb_user set pwd='222' where user='mr'`,没有指定where时所有行都将被更新   
 3. 数据表记录的删除   
     * 语法：`delete from 数据表名 where condition;`,没有指定where时将删除所有行   
-    * 实例：`delete from tb_user where user='mr'k;`,表示删除表tb_user中user为'mr'的记录信息       
+    * 实例：`delete from tb_user where user='mr';`,表示删除表tb_user中user为'mr'的记录信息       
 ---
