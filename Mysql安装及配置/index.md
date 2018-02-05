@@ -19,14 +19,7 @@
   `Enter password: 此处输入旧的密码` 因为一开始没有密码，所以直接按回车
 9. 此时，我们可以进行登陆了：`mysql -u root -p`
 ---
-#### 一些基础的MySQL语句
-1. `show databases;`     
- 选中数据库:`use 数据库名`   选中数据库后才可以操作数据库中的所有对象       
- 删除数据库：`drop database 数据库名`   除非备份了数据库，否则删除的没有恢复的可能       
- 创建数据库：`create database 数据库名`      
-2. `quit;`或`exited;`         
 
----
 #### 出现的问题
 1. 删除残存的MySQL：`mysqld --remove`
 2. 其实，自己当初捣鼓一下午的错误是因为自己的.ini文件配置错误造成的    
