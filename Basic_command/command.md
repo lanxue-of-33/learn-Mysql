@@ -25,4 +25,14 @@
 ---
 #### 数据表记录的更新操作
 ##### 我们操作数据库，真正要操作的其实是数据表中的数据
-
+1. 数据表记录的添加
+    * 语法：`insert into 数据表名(column_name,column_name2,···) values(value1,value2,···）;`
+    * 实例：`insert into tb_user(user,pwd,address) values ('mr','111','赣州');`
+    * 向所有项添加时也可以简写：`insert into tb_user values ('mr','111','赣州');`
+2. 数据表记录的修改
+    * 语法：`update 数据表名 set column_name=new value1,column_name=new value2,···where condition;`
+    * 实例：`update tb_user set pwd='222' where user='mr'`,没有指定where时所有行都将被更新
+3. 数据表记录的删除
+    * 语法：`delete from 数据表名 where condition;`,没有指定where时将删除所有行
+    * 实例：`delete from tb_user where user='mr'k;`,表示删除表tb_user中user为'mr'的记录信息    
+---
