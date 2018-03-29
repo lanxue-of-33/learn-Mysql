@@ -3,7 +3,7 @@
 ---
 #### 下载的具体步骤见如下链接
 [mysql 5.7.19下载步骤](http://www.jb51.net/article/119369.htm?utm_source=debugrun&utm_medium=referral)
-[mysql 5.7.20下载步骤]()
+[mysql 5.7.20下载步骤](http://www.jb51.net/article/127627.htm)
 
 ---
 #### 步骤总结如下
